@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ESB Lights",
+        "description": "Connect to the internal ESB Lights API. Enter the address of the server running it — a bare host like 192.168.123.114:4000 is fine.",
+        "data": {
+          "host": "API address",
+          "api_key": "API key (leave blank if the API doesn't require one)",
+          "scan_interval": "Check for a new colour every (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Couldn't reach the API at that address. Check the host and port, and that Home Assistant's network can reach it.",
+      "invalid_auth": "The API rejected that key.",
+      "unexpected_response": "That address answered, but not with ESB Lights data. Check you've got the right host."
+    },
+    "abort": {
+      "already_configured": "That API address is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "ESB Lights options",
+        "data": {
+          "scan_interval": "Check for a new colour every (seconds)"
+        }
+      }
+    }
+  }
+}

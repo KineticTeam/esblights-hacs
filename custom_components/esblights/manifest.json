@@ -1,0 +1,12 @@
+{
+  "domain": "esblights",
+  "name": "ESB Lights",
+  "codeowners": ["@KineticTeam"],
+  "config_flow": true,
+  "documentation": "https://github.com/KineticTeam/esblights-hacs",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/KineticTeam/esblights-hacs/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
